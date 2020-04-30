@@ -1,0 +1,52 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E7EC3A239CEBFB7B88C916F3917DC3F3A0BC8345+++ED8F881",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "70b79ea2-053d-754a-80fc-34c0d79d747a++8311+++97D4640" : {
+
+    },
+    "70b79ea2-053d-754a-80fc-34c0d79d747a++8311+++C149CD4" : {
+
+    },
+    "70b79ea2-053d-754a-80fc-34c0d79d747a++8311+++DDE4844" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "70b79ea2-053d-754a-80fc-34c0d79d747a++8311+++DDE4844" : 0,
+    "70b79ea2-053d-754a-80fc-34c0d79d747a++8311+++97D4640" : 0,
+    "E7EC3A239CEBFB7B88C916F3917DC3F3A0BC8345+++ED8F881" : 0,
+    "70b79ea2-053d-754a-80fc-34c0d79d747a++8311+++C149CD4" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "75EC7866-52B4-4852-9F81-A3561A4D2BA0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "70b79ea2-053d-754a-80fc-34c0d79d747a++8311+++DDE4844" : "yunbi\/Pivot\/Pivot\/ThreeLib\/hud\/",
+    "70b79ea2-053d-754a-80fc-34c0d79d747a++8311+++97D4640" : "yunbi\/Pivot\/Pivot\/ThreeLib\/Json+Obj\/",
+    "E7EC3A239CEBFB7B88C916F3917DC3F3A0BC8345+++ED8F881" : "yunbi\/",
+    "70b79ea2-053d-754a-80fc-34c0d79d747a++8311+++C149CD4" : "yunbi\/Pivot\/Pivot\/ThreeLib\/Json+Obj\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Pivot",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Pivot\/Pivot.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.3.101\/svn\/BookReview",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "70b79ea2-053d-754a-80fc-34c0d79d747a++8311+++97D4640"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.3.101\/svn\/BookReview",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "70b79ea2-053d-754a-80fc-34c0d79d747a++8311+++C149CD4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.3.101\/svn\/BookReview",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "70b79ea2-053d-754a-80fc-34c0d79d747a++8311+++DDE4844"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/249560690%2540qq.com@git.oschina.net\/readygo-tec\/yunbi.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E7EC3A239CEBFB7B88C916F3917DC3F3A0BC8345+++ED8F881"
+    }
+  ]
+}

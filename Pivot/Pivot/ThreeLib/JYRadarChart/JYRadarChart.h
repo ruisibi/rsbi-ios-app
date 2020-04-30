@@ -1,0 +1,42 @@
+//
+//  JYRadarChart.h
+//  JYRadarChart
+//
+//  Created by jy on 13-10-31.
+//  Copyright (c) 2013年 wcode. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "CPTPlotSymbol.h"
+
+@protocol JYRadarChartDelegate <NSObject>
+
+@optional
+- (void)radarViewDidSelectAt:(int)groupIndex index:(int)index withPoint:(CGPoint)point;
+@end
+@interface JYRadarChart : UIView
+
+@property (nonatomic, assign) id<JYRadarChartDelegate> delegate;
+@property (nonatomic, assign) CGFloat r;
+@property (nonatomic, assign) CGFloat maxValue;
+@property (nonatomic, assign) CGFloat minValue;
+@property (nonatomic, assign) BOOL drawPoints;
+@property (nonatomic, assign) BOOL fillArea;
+@property (nonatomic, assign) BOOL showLegend;
+@property (nonatomic, assign) BOOL showStepText;
+@property (nonatomic, assign) CGFloat colorOpacity;
+@property (nonatomic, strong) UIColor *backgroundLineColorRadial;
+@property (nonatomic, strong) NSArray *dataSeries;
+@property (nonatomic, strong) NSArray *dataIndex;
+@property (nonatomic, strong) NSArray *attributes;
+@property (nonatomic, strong) NSArray *lineNames;
+@property (nonatomic, assign) NSUInteger steps;
+@property (nonatomic, assign) CGPoint centerPoint;
+@property (nonatomic, strong) UIColor *backgroundFillColor;
+
+@property (nonatomic, assign) BOOL  clockwise; //direction of data
+
+- (void)setTitles:(NSArray *)titles;
+- (void)setColors:(NSArray *)colors;
+ 
+@end

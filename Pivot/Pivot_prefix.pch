@@ -1,0 +1,14 @@
+//
+// Prefix header for all source files in the 'CorePlot' project.
+//
+
+#ifdef __OBJC__
+    
+
+    #import <Accelerate/Accelerate.h>
+
+
+        #import <Foundation/Foundation.h>
+        #import <UIKit/UIKit.h>
+
+#endif
